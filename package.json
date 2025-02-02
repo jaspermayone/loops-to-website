@@ -37,5 +37,8 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --color --ignore-unknown"
-  }
+  },
+  "trustedDependencies": [
+    "core-js"
+  ]
 }
